@@ -13,8 +13,6 @@ angular.module('xwalletApp')
 	var _registeredCoins = {};
 
 	this.getRegisteredCoinTypes = function(){
-		console.log("XXX");
-		console.log(_registeredCoins);
 		return Object.keys(_registeredCoins);
 	};
 
