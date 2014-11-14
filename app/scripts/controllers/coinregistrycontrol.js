@@ -9,7 +9,7 @@
  */
 angular.module('xwalletApp')
   .controller('CoinRegistryController', ['$scope', 'CoinRegistryService', function ($scope, coinRegistry) {
-    $scope.registeredCoins = coinRegistry.getRegisteredCoins();
+    $scope.registeredCoins = coinRegistry.getRegisteredCoinTypes();
   }]);
 
 
